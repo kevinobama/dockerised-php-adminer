@@ -1,5 +1,3 @@
-Dockerise your PHP application with Nginx and PHP7-FPM
-Before we start…
 Before we start, we have to agree on one thing – Docker is super cool! If you are not familiar with Docker, I suggest to have a look at the tons of “Getting starting with Docker” or “What is Docker?” articles and then come back here. :)
 Since you keep reading, I will assume that you already have some Docker experience and you want to run your PHP applications in containers. Because who wants the trouble of installing all the dependencies on their local environment  or manage a number of virtual machines for their different projects, right? Right!
 
@@ -122,7 +120,3 @@ Finally, this last (this time for real)
 
 docker-compose up
 present us with the much wanted PHP info
-
-This is it.
-
-We can run any simple PHP application inside Docker containers, using the official images for Nginx and PHP.
